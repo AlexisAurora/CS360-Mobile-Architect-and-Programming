@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Label the pPlain tText as “nameText”. -->
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="347dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <!-- Label the ID of the button as “buttonSayHello”.
+         Name the button’s text as “Say Hello”.
+     -->
+    <Button
+        android:id="@+id/buttonSayHello"
+        android:layout_width="119dp"
+        android:layout_height="84dp"
+        android:text="Say Hello"
+        android:enabled="false"
+        android:onClick="SayHello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <!-- Label the TextView as “textGreeting”.
+         Remove all text from the TextView.
+     -->
+    <TextView
+        android:id="@+id/textGreeting"
+        android:layout_width="321dp"
+        android:layout_height="91dp"
+        android:text="Welcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

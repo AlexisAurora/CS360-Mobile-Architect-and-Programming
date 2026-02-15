@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Inventory App Alexis P</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="welcome">Welcome</string>
+    <string name="hello">"Hello "</string>
+    <string name="enter_your_name_here">Enter your name here:</string>
 </resources>
